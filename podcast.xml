@@ -1,33 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
-
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 <channel>
-
-<title>Daily Flash Podcast</title>
-<link>https://dailyflashshow.com</link>
-<description>Daily Flash Audio Podcast</description>
-
-<language>en-us</language>
-
-<itunes:author>Daily Flash</itunes:author>
-<itunes:summary>Daily Flash Audio Podcast</itunes:summary>
-<itunes:explicit>no</itunes:explicit>
-
-<itunes:category text="News">
-  <itunes:category text="Entertainment News"/>
-</itunes:category>
-
-<itunes:image href="https://static.wixstatic.com/media/6f6a6b_bf704e4099bb47d0a547b22c370ba876~mv2.jpg"/>
-
-<item>
-<title>Test Episode</title>
-<description>This is a test episode</description>
-<link>https://dailyflashshow.com</link>
-<pubDate>Mon, 21 Apr 2025 10:00:00 GMT</pubDate>
-<enclosure url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" length="12345" type="audio/mpeg"/>
-<guid>1</guid>
-</item>
-
+  <title><![CDATA[Daily Flash Podcast]]></title>
+  <link>https://dailyflashshow.com</link>
+  <description><![CDATA[Daily Flash Audio Podcast]]></description>
+  <language>en-us</language>
+  <itunes:author>Daily Flash</itunes:author>
+  <itunes:summary><![CDATA[Daily Flash Audio Podcast]]></itunes:summary>
+  <itunes:explicit>no</itunes:explicit>
+  <itunes:category text="News">
+    <itunes:category text="Entertainment News"/>
+  </itunes:category>
+  <itunes:image href="https://static.wixstatic.com/media/6f6a6b_bf704e4099bb47d0a547b22c370ba876~mv2.jpg"/>
+  <item>
+    <title><![CDATA[Daily Flash Audio Test]]></title>
+    <description><![CDATA[Test episode description]]></description>
+    <link>https://dailyflashshow.com</link>
+    <pubDate>Sun, 19 Apr 2026 12:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://drive.google.com/uc?export=download&id=1WU_c-5BqUW0ItC-xZYSa_TPaLQK_dN6z</guid>
+    <enclosure url="https://drive.google.com/uc?export=download&id=1WU_c-5BqUW0ItC-xZYSa_TPaLQK_dN6z" length="0" type="audio/mpeg"/>
+  </item>
 </channel>
 </rss>
