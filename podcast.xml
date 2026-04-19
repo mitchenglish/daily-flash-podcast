@@ -1,0 +1,58 @@
+function doGet() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = ss.getSheetByName('Sheet1'); // change if your tab is named differently
+  const rows = sheet.getDataRange().getValues();
+
+  const headers = rows.shift();
+
+  const col = {};
+  headers.forEach((h, i) => col[h] = i);
+
+  const podcastTitle = "Daily Flash Audio Podcast";
+  const podcastDescription = "Daily Flash Audio Podcast feed";
+  const podcastLink = "https://www.dailyflashshow.com";
+  const podcastLanguage = "en-us";
+
+  let items = "";
+
+  rows.forEach(row => {
+    const published = String(row[col["Published"]] || "").toUpperCase().trim();
+    if (published !== "YES") return;
+
+    const title = row[col["Title"]] || "";
+    const description = row[col["Description"]] || "";
+    const audioUrl = row[col["Audio URL"]] || "";
+    const publishDateRaw = row[col["Publish Date"]] || "";
+
+    if (!title || !audioUrl || !publishDateRaw) return;
+
+    const pubDate = new Date(publishDateRaw);
+    const rssDate = pubDate.toUTCString();
+
+    const guid = audioUrl;
+
+    items += `
+      <item>
+        <title><![CDATA[${title}]]></title>
+        <description><![CDATA[${description}]]></description>
+        <pubDate>${rssDate}</pubDate>
+        <guid isPermaLink="false">${guid}</guid>
+        <enclosure url="${audioUrl}" length="0" type="audio/mpeg"/>
+      </item>`;
+  });
+
+  const rss = `<?xml version="1.0" encoding="UTF-8"?>
+  <rss version="2.0">
+    <channel>
+      <title><![CDATA[${podcastTitle}]]></title>
+      <link>${podcastLink}</link>
+      <description><![CDATA[${podcastDescription}]]></description>
+      <language>${podcastLanguage}</language>
+      ${items}
+    </channel>
+  </rss>`;
+
+  return ContentService
+    .createTextOutput(rss)
+    .setMimeType(ContentService.MimeType.XML);
+}
