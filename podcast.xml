@@ -18,7 +18,7 @@ xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <itunes:category text="Entertainment News"/>
 </itunes:category>
 
-<itunes:image href="https://via.placeholder.com/1400.png"/>
+<itunes:image href="https://static.wixstatic.com/media/6f6a6b_bf704e4099bb47d0a547b22c370ba876~mv2.jpg"/>
 
 <item>
 <title>Test Episode</title>
