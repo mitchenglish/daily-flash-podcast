@@ -5,7 +5,7 @@ xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 <channel>
 
 <title>Daily Flash Podcast</title>
-<link>https://mitchenglish.com</link>
+<link>https://dailyflashshow.com</link>
 <description>Daily Flash Audio Podcast</description>
 
 <language>en-us</language>
@@ -14,14 +14,16 @@ xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 <itunes:summary>Daily Flash Audio Podcast</itunes:summary>
 <itunes:explicit>no</itunes:explicit>
 
-<itunes:category text="News"/>
+<itunes:category text="News">
+  <itunes:category text="Entertainment News"/>
+</itunes:category>
 
 <itunes:image href="https://via.placeholder.com/1400.png"/>
 
 <item>
 <title>Test Episode</title>
 <description>This is a test episode</description>
-<link>https://mitchenglish.com</link>
+<link>https://dailyflashshow.com</link>
 <pubDate>Mon, 21 Apr 2025 10:00:00 GMT</pubDate>
 <enclosure url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" length="12345" type="audio/mpeg"/>
 <guid>1</guid>
