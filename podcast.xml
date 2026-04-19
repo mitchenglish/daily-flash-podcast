@@ -17,8 +17,8 @@
     <description><![CDATA[Test episode description]]></description>
     <link>https://dailyflashshow.com</link>
     <pubDate>Sun, 19 Apr 2026 12:00:00 GMT</pubDate>
-    <guid isPermaLink="false">https://drive.google.com/uc?export=download&id=1WU_c-5BqUW0ItC-xZYSa_TPaLQK_dN6z</guid>
-    <enclosure url="https://drive.google.com/uc?export=download&id=1WU_c-5BqUW0ItC-xZYSa_TPaLQK_dN6z" length="0" type="audio/mpeg"/>
+    <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;id=1WU_c-5BqUW0ItC-xZYSa_TPaLQK_dN6z</guid>
+    <enclosure url="https://drive.google.com/uc?export=download&amp;id=1WU_c-5BqUW0ItC-xZYSa_TPaLQK_dN6z" length="0" type="audio/mpeg"/>
   </item>
 </channel>
 </rss>
