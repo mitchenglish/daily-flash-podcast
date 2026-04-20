@@ -16,12 +16,11 @@
       <itunes:category text="Entertainment News"/>
     </itunes:category>
     <itunes:image href="https://static.wixstatic.com/media/6f6a6b_bf704e4099bb47d0a547b22c370ba876~mv2.jpg"/>
-
     <item>
       <title><![CDATA[Flash of Inspiration]]></title>
       <description><![CDATA[Get ready for your daily dose of entertainment! Today's show features the hottest trends and celebrity buzz that you can't afford to miss.]]></description>
       <link>https://dailyflashshow.com</link>
-      <enclosure url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" length="12345" type="audio/mpeg"/>
+      <enclosure url="https://drive.google.com/uc?export=download&amp;id=1bDpdw-8pNLk0zh0kStJYh4vVr4eD4Et0" length="12345" type="audio/mpeg"/>
       <pubDate>Mon, 20 Apr 2026 12:00:00 GMT</pubDate>
       <guid><![CDATA[2026-04-20T14:22:40.000Z]]></guid>
     </item>
