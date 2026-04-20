@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
-<channel>
-  <title><![CDATA[Daily Flash Podcast]]></title>
-  <link>https://dailyflashshow.com</link>
-  <description><![CDATA[Daily Flash Audio Podcast]]></description>
-  <language>en-us</language>
-  <itunes:author>Daily Flash</itunes:author>
-  <itunes:summary><![CDATA[Daily Flash Audio Podcast]]></itunes:summary>
-  <itunes:explicit>no</itunes:explicit>
-  <itunes:category text="News">
-    <itunes:category text="Entertainment News"/>
-  </itunes:category>
-  <itunes:image href="https://static.wixstatic.com/media/6f6a6b_bf704e4099bb47d0a547b22c370ba876~mv2.jpg"/>
-  <item>
-    <title><![CDATA[Daily Flash Audio Test]]></title>
-    <description><![CDATA[Test episode description]]></description>
+  <channel>
+    <title>Daily Flash Audio</title>
+    <description>Daily Flash podcast feed</description>
     <link>https://dailyflashshow.com</link>
-    <pubDate>Sun, 19 Apr 2026 12:00:00 GMT</pubDate>
-    <guid isPermaLink="false">https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3</guid>
-    <enclosure url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" length="0" type="audio/mpeg"/>
-  </item>
-</channel>
+    <language>en-us</language>
+    <itunes:author>Daily Flash</itunes:author>
+    <itunes:summary>Daily Flash podcast feed</itunes:summary>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Daily Flash</itunes:name>
+      <itunes:email>mitch@dailyflashshow.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="News">
+      <itunes:category text="Entertainment News"/>
+    </itunes:category>
+    <itunes:image href="https://static.wixstatic.com/media/6f6a6b_bf704e4099bb47d0a547b22c370ba876~mv2.jpg"/>
+
+    <item>
+      <title><![CDATA[Flash of Inspiration]]></title>
+      <description><![CDATA[Get ready for your daily dose of entertainment! Today's show features the hottest trends and celebrity buzz that you can't afford to miss.]]></description>
+      <link>https://dailyflashshow.com</link>
+      <enclosure url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" length="12345" type="audio/mpeg"/>
+      <pubDate>Mon, 20 Apr 2026 12:00:00 GMT</pubDate>
+      <guid><![CDATA[2026-04-20T14:22:40.000Z]]></guid>
+    </item>
+  </channel>
 </rss>
