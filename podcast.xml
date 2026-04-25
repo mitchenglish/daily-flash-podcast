@@ -1,28 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
-  <channel>
-    <title>Daily Flash Audio</title>
-    <description>Daily Flash podcast feed</description>
-    <link>https://dailyflashshow.com</link>
-    <language>en-us</language>
-    <itunes:author>Daily Flash</itunes:author>
-    <itunes:summary>Daily Flash podcast feed</itunes:summary>
-    <itunes:explicit>no</itunes:explicit>
-    <itunes:owner>
-      <itunes:name>Daily Flash</itunes:name>
-      <itunes:email>mitch@dailyflashshow.com</itunes:email>
-    </itunes:owner>
-    <itunes:category text="News">
-      <itunes:category text="Entertainment News"/>
-    </itunes:category>
-    <itunes:image href="https://static.wixstatic.com/media/6f6a6b_bf704e4099bb47d0a547b22c370ba876~mv2.jpg"/>
-    <item>
-      <title><![CDATA[Flash of Inspiration]]></title>
-      <description><![CDATA[Get ready for your daily dose of entertainment! Today's show features the hottest trends and celebrity buzz that you can't afford to miss.]]></description>
-      <link>https://dailyflashshow.com</link>
-      <enclosure url="https://pub-74fe7fa5433645829598236aed71696a.r2.dev/Teaser%20Promo.mp3" length="12345" type="audio/mpeg"/>
-      <pubDate>Mon, 20 Apr 2026 12:00:00 GMT</pubDate>
-      <guid><![CDATA[2026-04-20T14:22:40.000Z]]></guid>
-    </item>
-  </channel>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+<title>Daily Flash Audio</title>
+<description>Daily Flash podcast feed</description>
+<link>https://dailyflashshow.com</link>
+<language>en-us</language>
+
+<itunes:author>Daily Flash</itunes:author>
+<itunes:summary>Daily Flash podcast feed</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+
+<itunes:owner>
+<itunes:name>Daily Flash</itunes:name>
+<itunes:email>mitch@dailyflashshow.com</itunes:email>
+</itunes:owner>
+
+<itunes:category text="News">
+<itunes:category text="Entertainment News"/>
+</itunes:category>
+
+<itunes:image href="https://static.wixstatic.com/media/6f6a6b_bf704e4099bb47d0a547b22c370ba876~mv2.jpg"/>
+
+<item>
+<title><![CDATA[  ]]></title>
+<description><![CDATA[  ]]></description>
+<link>https://dailyflashshow.com</link>
+<enclosure url="" type="audio/mpeg"/>
+<pubDate></pubDate>
+<guid><![CDATA[  ]]></guid>
+</item>
+
+</channel>
 </rss>
