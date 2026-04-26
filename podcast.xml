@@ -4,6 +4,8 @@
 <description>Daily Flash podcast feed</description>
 <link>https://dailyflashshow.com</link>
 <language>en-us</language>
+<copyright>© "2026" Daily Flash / KSA Entertainment</copyright>
+<itunes:author>Daily Flash</itunes:author>
 <itunes:author>Daily Flash</itunes:author>
 <itunes:summary>Daily Flash podcast feed</itunes:summary>
 <itunes:explicit>no</itunes:explicit>
@@ -17,11 +19,11 @@
 <itunes:image href="https://static.wixstatic.com/media/6f6a6b_bf704e4099bb47d0a547b22c370ba876~mv2.jpg"/>
 <item>
 <title><![CDATA[ Daily Flash – April 26, 2026]]></title>
-<description><![CDATA[Your “lost” pup could be AI-photoshopped on a fake operating table—wrong collars, bogus timestamps, and QR-code pleas to Zelle your cash. And that’s just round one: romance deepfakes are now stealing life savings. Here’s how scammers are weaponizing AI and the red flags you can’t ignore. ]]></description>
+<description><![CDATA[A federal jury just slapped Carnival with $300,000 after ruling they served a passenger 14 drinks in nine hours—and she wound up face-planting down the stairs. Now everyone’s questioning drink packages, wristband trackers and who’s really to blame when you’re three sheets to the wind on deck. Here’s why this verdict could turn your next vacation into a hyper-monitored booze cruise. ]]></description>
 <link>https://dailyflashshow.com</link>
-<enclosure url="https://res.cloudinary.com/dua49xetr/video/upload/v1777238405/dailyflash_1777238404.mp3" type="audio/mpeg"/>
-<pubDate>Sun, 26 Apr 2026 17:20:49 GMT</pubDate>
-<guid><![CDATA[ 2026-04-26-17-20-49 ]]></guid>
+<enclosure url="https://res.cloudinary.com/dua49xetr/video/upload/v1777246973/dailyflash_1777246971.mp3" type="audio/mpeg"/>
+<pubDate>Sun, 26 Apr 2026 19:43:27 GMT</pubDate>
+<guid><![CDATA[ 2026-04-26-19-43-27 ]]></guid>
 </item>
 </channel>
 </rss>
